@@ -55,8 +55,3 @@ auth_project/
 └── README.md                # Project documentation and setup guide
 
 
-
-
-
-
-
