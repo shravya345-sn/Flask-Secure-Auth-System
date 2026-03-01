@@ -16,7 +16,7 @@ A robust User Authentication and Management system built with **Python Flask**, 
 * **Frontend**: HTML5, CSS3 (Jinja2 Templates)
 
 ## 📋 How to Run
-1.  **Clone the repo**: `git clone <your-repo-link>`
+1.  **Clone the repo**: `git clone https://github.com/shravya345-sn/Flask-Secure-Auth-System.git`
 2.  **Install dependencies**: `pip install -r requirements.txt`
 3.  **Setup Database**: Create a MySQL database named `auth_db`.
 4.  **Configure app.py**: Update the `SQLALCHEMY_DATABASE_URI` with your MySQL root password.
@@ -52,4 +52,5 @@ auth_project/
 ├── app.py                   # Main Flask application & MySQL logic
 ├── requirements.txt         # List of Python dependencies
 └── README.md                # Project documentation and setup guide                 
+
 
