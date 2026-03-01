@@ -39,6 +39,7 @@ The system supports full administrative control over user accounts.
 
 ## 📂 Project Structure
 
+```text
 auth_project/
 ├── static/
 │   └── style.css            # Custom CSS for UI & Buttons
@@ -52,5 +53,10 @@ auth_project/
 ├── app.py                   # Main Flask application & MySQL logic
 ├── requirements.txt         # List of Python dependencies
 └── README.md                # Project documentation and setup guide
+
+
+
+
+
 
 
