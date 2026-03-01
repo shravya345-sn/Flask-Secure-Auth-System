@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>My Profile</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Your Profile</h2>
+        <div style="text-align: left; margin: 20px 0;">
+            <p><strong>Username:</strong> {{ name }}</p>
+            <p><strong>Role:</strong> {{ role }}</p>
+        </div>
+        <a href="{{ url_for('user_dashboard') }}" class="btn-link">Back to Dashboard</a>
+    </div>
+</body>
+</html>

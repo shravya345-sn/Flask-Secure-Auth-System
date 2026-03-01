@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    width: 350px;
+    text-align: center;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4158D0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Button Styling for Links */
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #4158D0;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.btn-logout {
+    background-color: #ff4d4d;
+}
+
+.btn-logout:hover {
+    background-color: #cc0000;
+}
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 10px; border: 1px solid #eee; text-align: left; }
