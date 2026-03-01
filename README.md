@@ -51,6 +51,6 @@ auth_project/
 ├── .gitignore               # Instruction file for repository hygiene
 ├── app.py                   # Main Flask application & MySQL logic
 ├── requirements.txt         # List of Python dependencies
-└── README.md                # Project documentation and setup guide                 
+└── README.md                # Project documentation and setup guide
 
 
